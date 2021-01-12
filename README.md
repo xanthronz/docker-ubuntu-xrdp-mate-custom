@@ -1,6 +1,6 @@
 Use https://github.com/RattyDAVE/docker-ubuntu-xrdp-mate-custom/issues to send feedback, issues, comments and general chat.
 
-### Quick Start
+## Quick Start
 
 Run the following to get started.
 
