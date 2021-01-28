@@ -148,7 +148,7 @@ RUN cd /root && \
 #    echo "user = messagebus"  >> /etc/supervisor/conf.d/dbus-daemon.conf
 
 COPY xrdp.ini /etc/xrdp/xrdp.ini
-
+COPY createusers.txt /root/
 COPY autostartup.sh /root/
 CMD ["/bin/bash", "/root/autostartup.sh"]
                                     
